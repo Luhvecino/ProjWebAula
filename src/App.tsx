@@ -1,18 +1,15 @@
 import React from 'react';
 import './App.css';
 import Menu from './layout/Menu';
-import Usuario from './usuario/Usuario';
+import Usuario from './controller/usuario/Usuario';
 
 
 function App() {
   return (
     <div className='container'>
-      <Usuario nome='Cleverson Avelino' ></Usuario>
-
-
-
-      {/* hello world!
-      <form>
+      <Usuario></Usuario>
+      
+      {/* <form>
         <div className="mb-3">
           <label className="form-label">Email address</label>
           <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>            
