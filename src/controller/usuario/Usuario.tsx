@@ -20,8 +20,15 @@ const Usuario: React.FC<{}> = ({ }) => {
             nome: nome,
             idade: idade,
             dataDeNascimento: dataDeNascimento
-        });               
+        });
+
+       
+        
     }  
+
+    useEffect(() => {
+        console.log(usuario)
+    },[usuario]);
 
     return (
         <div>
