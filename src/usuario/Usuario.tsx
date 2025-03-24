@@ -8,12 +8,7 @@ interface UsuarioModel {
 
 const Usuario: React.FC<UsuarioModel> = ({ nome }) => {
     return (
-       <div>
-        meu primeiro componente react  {nome}
-
-       
-       </div>
-       
+       <div>meu primeiro componente react  {nome}</div>
     );
 }
 export default Usuario;
